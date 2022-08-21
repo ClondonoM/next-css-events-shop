@@ -12,7 +12,7 @@ const Header = () => {
           <Link href='#'>BAR</Link>
           <Link href='#'>RESTO</Link>
           <Link href='#'>MENU</Link>
-          <div className={styles.header_aButton}>
+          <div className={`${styles.header_aButton}  gradientColor`}>
             <Link href='#'>LOGIN</Link>
           </div>
         </nav>

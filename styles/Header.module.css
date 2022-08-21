@@ -27,7 +27,7 @@
 }
 
 .header_aButton {
-  background: rgb(164, 119, 67);
+  /* background: rgb(164, 119, 67);
   background: linear-gradient(
     135deg,
     rgba(164, 119, 67, 1) 6%,
@@ -36,7 +36,7 @@
     rgba(164, 119, 67, 1) 44%,
     rgba(184, 138, 85, 1) 62%,
     rgba(223, 175, 119, 1) 88%
-  );
+  ); */
   color: var(--black);
   font-size: 0.85rem;
   font-weight: 700;
