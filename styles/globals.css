@@ -21,6 +21,7 @@ body {
   /* background-size: cover; */
   background-attachment: fixed;
   backdrop-filter: sepia(90%);
+  color: var(--white);
 }
 
 a {
@@ -32,6 +33,14 @@ a {
 *:before,
 *:after {
   box-sizing: inherit;
+}
+
+.container {
+  padding: 0 2rem;
+}
+
+.title {
+  color: var(--white);
 }
 
 @media (prefers-color-scheme: dark) {
