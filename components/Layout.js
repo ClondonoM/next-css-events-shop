@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Header from './Header';
 
 const Layout = ({ children, page }) => {
   return (
@@ -8,7 +9,7 @@ const Layout = ({ children, page }) => {
         <meta name='description' content='Unplugged Web Site' />
         <link rel='icon' href='/favicon.png' />
       </Head>
-      <h1 className='title'>Nav bar</h1>
+      <Header />
       {children}
     </div>
   );
