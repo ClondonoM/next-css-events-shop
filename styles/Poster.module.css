@@ -67,6 +67,7 @@
 
 .poster_text_black_2 {
   color: var(--black);
+  font-weight: 700;
 }
 
 .poster_aButton {

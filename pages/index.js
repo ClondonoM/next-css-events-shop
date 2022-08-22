@@ -1,8 +1,6 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import Layout from '../components/Layout';
-import PosterViernes from '../components/PosterViernes';
-import PosterSabado from '../components/PosterSabado';
+import PosterDia from '../components/PosterDia';
 
 import styles from '../styles/Home.module.css';
 
@@ -25,8 +23,8 @@ export default function Home() {
           <h1>ESTA SEMANA</h1>
         </div>
         <div className='posters'>
-          <PosterViernes />
-          <PosterSabado />
+          <PosterDia day={'VIERNES'} dayDate={'06'} />
+          <PosterDia day={'SABADO'} dayDate={'07'} />
         </div>
         <div className={styles.eventos_title}>
           <h1>PROXIMOS EVENTOS MAYO</h1>
