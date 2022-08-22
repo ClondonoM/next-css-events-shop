@@ -1,0 +1,84 @@
+.poster_container {
+  padding: 0.8rem;
+  width: 20rem;
+  border-radius: 0.8rem;
+
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+}
+
+.poster_text_black_1 {
+  color: var(--black);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.poster_banner_1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../public/img/peopleParty1.jpg');
+  background-size: cover;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+}
+
+.poster_banner_2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../public/img/peopleParty2.jpg');
+  background-size: cover;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+}
+
+.poster_top_text {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.poster_bottom_text {
+  color: var(--gold);
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.poster_bottom_text span {
+  font-weight: 400;
+}
+.poster_text_box {
+  padding: 1rem 0;
+}
+
+.poster_text_black_2 {
+  color: var(--black);
+}
+
+.poster_aButton {
+  background-color: var(--black);
+  color: var(--white);
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 0.5rem 3rem;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+}
