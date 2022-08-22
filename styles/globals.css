@@ -38,16 +38,6 @@ a {
   padding: 0 2rem;
 }
 
-.title {
-  color: var(--white);
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
-
 .gradientColor {
   background: rgb(164, 119, 67);
   background: linear-gradient(
