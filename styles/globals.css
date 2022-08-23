@@ -17,7 +17,7 @@ body {
       rgba(21, 25, 26, 0.7),
       rgba(21, 25, 26, 0.7)
     ),
-    url('../public/bg.jpg');
+    url('/bg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   backdrop-filter: sepia(90%);
@@ -113,7 +113,7 @@ a {
 
 .poster_banner_1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('../public/peopleParty1.jpg');
+    url('/peopleParty1.jpg');
   background-size: cover;
   height: 7.5rem;
   display: flex;
@@ -129,7 +129,7 @@ a {
 
 .poster_banner_2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('../public/peopleParty2.jpg');
+    url('/peopleParty2.jpg');
   background-size: cover;
   height: 7.5rem;
   display: flex;
