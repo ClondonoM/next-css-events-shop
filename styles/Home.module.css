@@ -3,7 +3,7 @@
       rgba(74, 42, 30, 0.7),
       rgba(74, 42, 30, 0.7)
     ),
-    url('../public/img/peopleHeader.jpg');
+    url('../public/peopleHeader.jpg');
   background-size: cover;
   font-weight: 900;
   font-size: 0.9rem;
@@ -104,7 +104,7 @@
       rgba(216, 131, 81, 0.7),
       rgba(0, 0, 0, 0.8)
     ),
-    url('../public/img/birthDay.jpg');
+    url('../public/birthDay.jpg');
   background-size: cover;
   background-position: center center;
   font-weight: 900;
