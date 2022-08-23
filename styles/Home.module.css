@@ -57,7 +57,9 @@
 .poster_container_all {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 2.5rem;
 }
 @media (min-width: 768px) {
