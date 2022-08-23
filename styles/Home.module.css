@@ -37,7 +37,6 @@
 }
 
 .banner_aButton {
-  /* color: var(--black); */
   text-align: center;
   font-size: 1.2rem;
   font-weight: 700;
@@ -86,8 +85,37 @@
   -o-border-radius: 0.5rem;
 }
 
-.birthday_title {
+.birthday_title h1 {
   margin: 1.8rem 0;
   text-align: center;
   font-weight: 400;
+  font-style: italic;
+}
+
+.birthday_title span {
+  font-weight: 900;
+}
+
+.bd_banner {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(216, 131, 81, 0.7),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url('../public/img/birthDay.jpg');
+  background-size: cover;
+  background-position: center center;
+  font-weight: 900;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btn_bd_banner {
+  padding: 2rem;
+  background-color: var(--black);
 }

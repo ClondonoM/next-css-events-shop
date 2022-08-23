@@ -17,7 +17,9 @@ const PosterAllDays = ({
         </p>
       </div>
       <div className={`${styles.poster_aButton} ${bgBtnAD}`}>
-        <Link href={dayAD.toLowerCase()}>COMPRAR</Link>
+        <div className={styles.btn_bd_banner}>
+          <Link href={dayAD.toLowerCase()}>COMPRAR</Link>
+        </div>
       </div>
     </div>
   );

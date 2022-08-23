@@ -78,6 +78,9 @@ export default function Home() {
             FESTEJA TU CUMPLEAÑOS EN <span>UNPLUGGED</span>
           </h1>
         </div>
+        <div className={styles.bd_banner}>
+          <Link href='#'>CONTACTANOS</Link>
+        </div>
       </Layout>
     </div>
   );
