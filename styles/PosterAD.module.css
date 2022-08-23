@@ -1,6 +1,6 @@
 .poster_container {
   padding: 0.8rem;
-  width: 20rem;
+  width: 12rem;
   border-radius: 0.8rem;
 
   -webkit-border-radius: 0.8rem;
@@ -9,37 +9,24 @@
   -o-border-radius: 0.8rem;
 }
 
-.poster_text_black_1 {
-  color: var(--black);
-  font-size: 1.5rem;
-  font-weight: 900;
-}
-
 .poster_top_text {
-  font-size: 1.4rem;
+  padding: 0;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
 .poster_bottom_text {
   color: var(--gold);
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 900;
 }
 
 .poster_bottom_text span {
   font-weight: 400;
 }
-.poster_text_box {
-  padding: 1rem 0;
-}
-
-.poster_text_black_2 {
-  color: var(--black);
-  font-weight: 700;
-}
 
 .poster_aButton {
-  background-color: var(--black);
+  margin-top: 1rem;
   color: var(--white);
   font-size: 1.2rem;
   font-weight: 700;

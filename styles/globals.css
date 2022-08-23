@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,900&display=swap');
 
 :root {
   --black: #000;
@@ -12,7 +12,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: Lato, sans-serif;
-  background-color: var(--black);
+  background-color: #181b1a;
   /* background-image: linear-gradient(
       rgba(21, 25, 26, 0.7),
       rgba(21, 25, 26, 0.7)
@@ -39,6 +39,16 @@ a {
   padding: 0 2rem;
 }
 
+.container_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mt-mb-1 {
+  margin: 1rem 0;
+}
+
 .gradientColor {
   background: rgb(164, 119, 67);
   background: linear-gradient(
@@ -50,6 +60,39 @@ a {
     rgba(184, 138, 85, 1) 62%,
     rgba(223, 175, 119, 1) 88%
   );
+}
+
+.gradientViernes {
+  background: rgb(125, 66, 123);
+  background: linear-gradient(
+    135deg,
+    rgba(125, 66, 123, 1) 6%,
+    rgba(159, 97, 156, 1) 20%,
+    rgba(193, 129, 190, 1) 32%,
+    rgba(125, 66, 123, 1) 44%,
+    rgba(159, 97, 156, 1) 62%,
+    rgba(193, 129, 190, 1) 88%
+  );
+}
+
+.bg_btn_viernes {
+  background-color: rgba(159, 97, 156, 1);
+}
+.gradientSabado {
+  background: rgb(56, 59, 104);
+  background: linear-gradient(
+    135deg,
+    rgba(56, 59, 104, 1) 6%,
+    rgba(92, 93, 141, 1) 20%,
+    rgba(130, 130, 181, 1) 32%,
+    rgba(56, 59, 104, 1) 44%,
+    rgba(130, 130, 181, 1) 62%,
+    rgba(169, 168, 221, 1) 88%
+  );
+}
+
+.bg_btn_sabado {
+  background-color: rgba(92, 93, 141, 1);
 }
 
 .posters {
@@ -66,4 +109,36 @@ a {
     justify-content: center;
     gap: 4rem;
   }
+}
+
+.poster_banner_1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../public/img/peopleParty1.jpg');
+  background-size: cover;
+  height: 7.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+}
+
+.poster_banner_2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../public/img/peopleParty2.jpg');
+  background-size: cover;
+  height: 7.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
 }

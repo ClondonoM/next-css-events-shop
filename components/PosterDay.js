@@ -4,11 +4,11 @@ import { ImTicket } from 'react-icons/im';
 import { MdOutlineLocationOn } from 'react-icons/md';
 import styles from '../styles/Poster.module.css';
 
-const PosterDia = ({ day, dayDate }) => {
+const PosterDay = ({ day, dayDate, bannerBg }) => {
   return (
     <div className={`${styles.poster_container} gradientColor`}>
       <p className={styles.poster_text_black_1}>{day}</p>
-      <div className={styles.poster_banner_1}>
+      <div className={bannerBg}>
         <p className={styles.poster_top_text}>{day}</p>
         <p className={styles.poster_bottom_text}>
           {dayDate} <span>MAYO</span>
@@ -34,4 +34,4 @@ const PosterDia = ({ day, dayDate }) => {
   );
 };
 
-export default PosterDia;
+export default PosterDay;
